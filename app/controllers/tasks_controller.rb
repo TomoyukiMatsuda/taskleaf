@@ -34,7 +34,7 @@ class TasksController < ApplicationController
 
   def destroy
     @task.destroy
-    head :no_content # レスポンスなしでHTTPステータスとして204が返るようにする
+    # head :no_content # レスポンスなしでHTTPステータスとして204が返るようにする
   end
 
   private
